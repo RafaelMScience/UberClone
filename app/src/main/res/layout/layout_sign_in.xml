@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_16dp">
+    
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/padding_16dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/padding_16dp">
+
+        <Button
+            android:id="@+id/btn_phone_sign_in"
+            android:padding="@dimen/padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_phone_black"
+            android:text="sign in with phone"
+            android:textColor="@android:color/black"/>
+
+        <Button
+            android:id="@+id/btn_google_sign_in"
+            android:padding="@dimen/padding_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:drawableStart="@drawable/fui_ic_googleg_color_24dp"
+            android:text="@string/fui_sign_in_with_google"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
